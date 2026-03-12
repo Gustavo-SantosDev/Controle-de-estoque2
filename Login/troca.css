@@ -132,6 +132,8 @@ body{
     align-items: center;
 
     background: #f8f9fa;
+
+    font-family: var(--bs-body-font-family);
 }
 
 .card-body{
@@ -144,6 +146,44 @@ body{
 
     padding: 20px;
 }
+
+.text-muted{
+    margin-bottom: 16px;
+}
+
+.card-body input{
+    width: 100%;
+
+    padding: .375rem .75rem;
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+
+    color: var(--bs-body-color);
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.card-body #senha_atual{
+    margin-bottom: 8px;
+}
+
+.card-body #nova_senha{
+    margin-bottom: 16px;
+}
+
+.card-body #btn-trocar-senha{
+    margin-bottom: 8px;
+
+    
+}
+
+
 
 
 
