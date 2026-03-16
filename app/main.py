@@ -28,8 +28,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-ADMIN_ANALISTA_EMAIL = os.getenv("ADMIN_ANALISTA_EMAIL", "analista@stillushome.com")
-ADMIN_ANALISTA_SENHA = os.getenv("ADMIN_ANALISTA_SENHA", "Analista@2026")
+# ADMIN_ANALISTA_EMAIL = os.getenv("ADMIN_ANALISTA_EMAIL", "analista@stillushome.com")
+# ADMIN_ANALISTA_SENHA = os.getenv("ADMIN_ANALISTA_SENHA", "Analista@2026")
+ADMIN_ANALISTA_EMAIL = os.getenv("ADMIN_ANALISTA_EMAIL", "123@123.com")
+ADMIN_ANALISTA_SENHA = os.getenv("ADMIN_ANALISTA_SENHA", "12345678")
 ADMIN_DONO_EMAIL = os.getenv("ADMIN_DONO_EMAIL", "dono@stillushome.com")
 ADMIN_DONO_SENHA = os.getenv("ADMIN_DONO_SENHA", "Dono@2026")
 
